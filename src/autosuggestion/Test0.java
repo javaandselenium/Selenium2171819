@@ -13,6 +13,7 @@ public class Test0 {
 		System.setProperty("webdriver.chrome.driver","./software/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
+		
 		WebElement ele = driver.findElement(By.name("q"));
 		ele.sendKeys("seleni");
 		
