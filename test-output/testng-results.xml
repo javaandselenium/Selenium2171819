@@ -1,53 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[chats,true]]>
+      <![CDATA[Facebook – log in or sign up]]>
     </line>
     <line>
-      <![CDATA[chats,true]]>
+      <![CDATA[https://www.facebook.com/]]>
     </line>
     <line>
-      <![CDATA[chats,true]]>
+      <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[settings,true]]>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjEyOTIyNTgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjEyOTIyNTg0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-02-09T07:29:59 IST" name="Default suite" finished-at="2021-02-09T07:29:59 IST" duration-ms="137">
+  <suite started-at="2021-02-10T07:32:54 IST" name="Suite" finished-at="2021-02-10T07:33:40 IST" duration-ms="45724">
     <groups>
     </groups>
-    <test started-at="2021-02-09T07:29:59 IST" name="Default test" finished-at="2021-02-09T07:29:59 IST" duration-ms="137">
-      <class name="testNg.whatsup">
-        <test-method signature="chats()[pri:0, instance:testNg.whatsup@672872e1]" started-at="2021-02-09T07:29:59 IST" name="chats" finished-at="2021-02-09T07:29:59 IST" duration-ms="35" status="PASS">
+    <test started-at="2021-02-10T07:32:54 IST" name="Test1" finished-at="2021-02-10T07:33:40 IST" duration-ms="45327">
+      <class name="testNg.Parallel">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testNg.Parallel@343570b7]" started-at="2021-02-10T07:32:54 IST" name="openapp" finished-at="2021-02-10T07:32:54 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:testNg.Parallel@343570b7]" started-at="2021-02-10T07:32:54 IST" name="login" finished-at="2021-02-10T07:33:39 IST" duration-ms="44885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[chats,true]]>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjEyOTIyNTg0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
-        </test-method> <!-- chats -->
-        <test-method signature="chats()[pri:0, instance:testNg.whatsup@672872e1]" started-at="2021-02-09T07:29:59 IST" name="chats" finished-at="2021-02-09T07:29:59 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testNg.Parallel@343570b7]" started-at="2021-02-10T07:33:39 IST" name="closeapp" finished-at="2021-02-10T07:33:40 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testNg.Parallel -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-02-10T07:32:54 IST" name="Test3" finished-at="2021-02-10T07:33:40 IST" duration-ms="45723">
+      <class name="testNg.Parallel">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testNg.Parallel@2892dae4]" started-at="2021-02-10T07:32:54 IST" name="openapp" finished-at="2021-02-10T07:32:54 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:testNg.Parallel@2892dae4]" started-at="2021-02-10T07:32:54 IST" name="login" finished-at="2021-02-10T07:33:39 IST" duration-ms="44664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[chats,true]]>
+              <![CDATA[]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- chats -->
-        <test-method signature="chats()[pri:0, instance:testNg.whatsup@672872e1]" started-at="2021-02-09T07:29:59 IST" name="chats" finished-at="2021-02-09T07:29:59 IST" duration-ms="5" status="PASS">
-          <reporter-output>
             <line>
-              <![CDATA[chats,true]]>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjEyOTIyNTgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
-        </test-method> <!-- chats -->
-        <test-method signature="settings()[pri:1, instance:testNg.whatsup@672872e1]" started-at="2021-02-09T07:29:59 IST" name="settings" finished-at="2021-02-09T07:29:59 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testNg.Parallel@2892dae4]" started-at="2021-02-10T07:33:39 IST" name="closeapp" finished-at="2021-02-10T07:33:40 IST" duration-ms="977" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[settings,true]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- settings -->
-      </class> <!-- testNg.whatsup -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeapp -->
+      </class> <!-- testNg.Parallel -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>
